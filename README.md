@@ -1,8 +1,10 @@
-# React + Vite
+This project is build using React through vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Frontend url - https://glistening-faloodeh-81dfab.netlify.app/login
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+By Default user will get the login page, if he has signed if he enter valid credential he will be able to login.
+If it is new user he can sign up and provide his details then he can login again by entering his credentials
+If the user forgets his password he can hit Forogt password where the user needs to enter his email
+After submiting the user will get a token to his email along with the link
+Now the user needs to click in the link and enter the valid token and rest his password
+Once the user reset his password he needs go to the login page and then login
